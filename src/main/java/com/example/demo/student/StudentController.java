@@ -15,6 +15,7 @@ public class StudentController {
     private final StudentService studentService;
 
     //inyeccion de dependencias a traves del constructor
+
     @Autowired //anotacion que hace inyeccion automaticamente
     public StudentController(StudentService studentService){
         this.studentService = studentService;
